@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.avallis</groupId>
-	<artifactId>FIPAM</artifactId>
+	<artifactId>TASPRO</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>FIPAM Maven Webapp</name>
+	<name>TASPRO</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<spring.version>4.3.9.RELEASE</spring.version>
@@ -239,15 +239,15 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://52.163.214.18:7093/manager/text</url>
+					<url>http://taspro10:8089/manager/text</url>
 					<path>/FIPA</path>
 					<!-- Set update to true to avoid exist war package can not be override 
 						error -->
 					<update>true</update>
 					<!-- Because deploy this maven project using plugin in pom so use the 
 						manager-script role user. -->
-					<username>admin</username>
-					<password>ZD5sq~Tz</password>
+					<username>ND</username>
+					<password>ND@2023$</password>
 				</configuration>
 			</plugin>
 		</plugins>
